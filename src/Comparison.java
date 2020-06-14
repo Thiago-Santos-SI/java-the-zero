@@ -9,17 +9,29 @@ public class Comparison { // método main inicia a execução do aplicativo Java
         number1 = input.nextInt(); // lê o primeiro número fornecido pelo usuário
         System.out.print("Enter second integer: "); // prompt
         number2 = input.nextInt(); // lê o segundo número fornecido pelo usuário
-        if (number1 == number2)
+        if (number1 == number2){
+
             System.out.printf("%d == %d%n", number1, number2);
-        if (number1 != number2)
+        }
+        if (number1 != number2){
+
             System.out.printf("%d != %d%n", number1, number2);
-        if (number1 < number2)
+        }
+        if (number1 < number2){
+
             System.out.printf("%d < %d%n", number1, number2);
-        if (number1 > number2)
+        }
+        if (number1 > number2){
+
             System.out.printf("%d > %d%n", number1, number2);
-        if (number1 <= number2)
+        }
+        if (number1 <= number2){
+
             System.out.printf("%d <= %d%n", number1, number2);
-        if (number1 >= number2)
+        }
+        if (number1 >= number2){
+
             System.out.printf("%d >= %d%n", number1, number2);
+        }
     } // fim do método main
 } // fim da classe Comparison

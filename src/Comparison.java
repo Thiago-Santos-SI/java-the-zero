@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Comparison { // método main inicia a execução do aplicativo Java
+public class Comparison { // método Main inicia a execução do aplicativo Java
     public static void main(String[] args) { // cria Scanner para obter entrada a partir da linha de comando
         Scanner input = new Scanner(System.in);
         int number1; // primeiro número a comparar
@@ -33,5 +33,5 @@ public class Comparison { // método main inicia a execução do aplicativo Java
 
             System.out.printf("%d >= %d%n", number1, number2);
         }
-    } // fim do método main
+    } // fim do método Main
 } // fim da classe Comparison
